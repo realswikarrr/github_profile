@@ -1,26 +1,18 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.card__container {
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  margin: auto 25%;
+  color: white;
+  background-color: blue;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.card__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
